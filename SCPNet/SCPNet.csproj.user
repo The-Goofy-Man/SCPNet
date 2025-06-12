@@ -5,22 +5,19 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>SCPNet (Unpackaged)</ActiveDebugProfile>
-    <Source>C:\Users\Louden\source\repos\The-Goofy-Man\SCPNet\SCPNet\SCPNet\Assets\SCP_Foundation_%28emblem%29.png</Source>
-    <SmallTileSource>C:\Users\Louden\source\repos\The-Goofy-Man\SCPNet\SCPNet\SCPNet\Assets\SCP_Foundation_%28emblem%29.png</SmallTileSource>
-    <MediumTileSource>C:\Users\Louden\source\repos\The-Goofy-Man\SCPNet\SCPNet\SCPNet\Assets\SCP_Foundation_%28emblem%29.png</MediumTileSource>
-    <WideTileSource>C:\Users\Louden\source\repos\The-Goofy-Man\SCPNet\SCPNet\SCPNet\Assets\SCP_Foundation_%28emblem%29.png</WideTileSource>
-    <LargeTileSource>C:\Users\Louden\source\repos\The-Goofy-Man\SCPNet\SCPNet\SCPNet\Assets\SCP_Foundation_%28emblem%29.png</LargeTileSource>
-    <AppIconSource>C:\Users\Louden\source\repos\The-Goofy-Man\SCPNet\SCPNet\SCPNet\Assets\SCP_Foundation_%28emblem%29.png</AppIconSource>
-    <SplashScreenSource>C:\Users\Louden\source\repos\The-Goofy-Man\SCPNet\SCPNet\SCPNet\Assets\SCP_Foundation_%28emblem%29.png</SplashScreenSource>
-    <PackageLogoSource>C:\Users\Louden\source\repos\The-Goofy-Man\SCPNet\SCPNet\SCPNet\Assets\SCP_Foundation_%28emblem%29.png</PackageLogoSource>
+    <Source>C:\Users\Louden\Pictures\Untitled.png</Source>
+    <SmallTileSource>C:\Users\Louden\Pictures\Untitled.png</SmallTileSource>
+    <MediumTileSource>C:\Users\Louden\Pictures\Untitled.png</MediumTileSource>
+    <WideTileSource>C:\Users\Louden\Pictures\Untitled.png</WideTileSource>
+    <LargeTileSource>C:\Users\Louden\Pictures\Untitled.png</LargeTileSource>
+    <AppIconSource>C:\Users\Louden\Pictures\Untitled.png</AppIconSource>
+    <SplashScreenSource>C:\Users\Louden\Pictures\Untitled.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\Louden\Pictures\Untitled.png</PackageLogoSource>
   </PropertyGroup>
   <ItemGroup>
     <None Update="App.xaml">
       <SubType>Designer</SubType>
     </None>
-    <Page Update="Page2.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>

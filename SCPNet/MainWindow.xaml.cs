@@ -1,6 +1,6 @@
-// This code is licensed under the CC BY-NC-SA License. See licence.md in the root of the repo for more information. if in terminal, type 'cat ./../licence.md' to read the license.
+// This code is licensed under the CC BY-NC-SA License. See licence.md in the root of the repo for more information.
 //
-// last updated: 08/06/2025 by: The-Goofy-Man
+// last updated: 08/11/2025 by: Dr. Shermon
 
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
@@ -20,34 +20,79 @@ using Windows.Devices.Enumeration;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 
-// BOY DO I LOVE 15 FUCKING LINES OF IMPORTS FOR A SIMPLE BUTTON CLICK :) 08/06/2025 - The-Goofy-Man
-// Intelesence, please stop autocompleating my comments. 08/06/2025 - The-Goofy-Man
+// BOY DO I LOVE 15 FUCKING LINES OF IMPORTS FOR A SIMPLE BUTTON CLICK :) 08/06/2025 - Dr. Shermon
+// Intelisence, please stop autocompleting my code. 08/06/2025 - Dr. Shermon
 namespace SCPNet
 {
     public sealed partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
         }
          
-        public void MyButton_OnClick(object sender, RoutedEventArgs e)
-        {
+
+        // unless you you change something DONT TOUCH THIS.
+        public async void MyButton_OnClick(object sender, RoutedEventArgs e)
+        {   
+            
             var button = sender as Button;
-            var ring = Ring;
+            var frame = ViewFrame as Frame; // Cast MainFrame to Frame type // i love C# ;(
+            var whyDoINeedThis = Ring; // i did it for the colors, also it doesn't work without this, so i had to do it. 09/06/2025 - Dr. Shermon
             if (button != null)
             {
-                button.Content = "Logging In..."; // Changes button text on click
-                ring.IsActive = true; // makes ring go brrrrr
-                Thread.Sleep(2500); // waits 2.5 seconds for the "1984" Experience 
-                MainFrame.Navigate(typeof(Page2));
+                var id = id_box.Text;
+                if (!string.IsNullOrEmpty(id))
+                {
+                    button.Content = "Logging In..."; // Changes button text on click
+                    whyDoINeedThis.IsActive = true; // makes progress ring go brrrrr
+                    await Task.Delay(2500);
+
+                    LogInPanel.Visibility = Visibility.Collapsed; // hides the grid, so it doesn't show the progress ring
+                    LogInPanel.Opacity = 0; // makes it not see-able
+                    
+                    frame.Opacity = 1;
+                    frame.Visibility = Visibility.Visible;
+                }
+                else
+                {
+                    button.Content = "Please Enter A Username, like Dr. Alto Clef ";
+                }
             }
             else
             {
-                // ill write this later 08/06/2025 - The-Goofy-Man
+                 // cant be bothered to do anything here, if the button is null, then it just won't do anything. 08/06/2025 - Dr. Shermon
+                // I know this is bad practice, but I don't care. 08/06/2025 - The-GoofyMan
+            }
+        }
+
+        public void Search(object sender, TextChangedEventArgs e)
+        {
+            var doc = DocInput.Text; // Gets the text from the DocInput TextBox
+            if (!string.IsNullOrEmpty(doc)) // Checks if the text is not empty
+            {
+                // Here you would implement the search logic, for now, we just show a message
+                var messageDialog = new ContentDialog
+                {
+                    Title = "Search",
+                    Content = $"Searching for: {doc}",
+                    CloseButtonText = "OK"
+                };
+                 messageDialog.XamlRoot = DocInput.XamlRoot;
+                 messageDialog.ShowAsync();
+            }
+            else
+            {
+                // If the input is empty, show a message
+                var messageDialog = new ContentDialog
+                {
+                    Title = "Error",
+                    Content = "Please enter a document name to search.",
+                    CloseButtonText = "OK"
+                };
+                messageDialog.ShowAsync();
             }
         }
     }
 }
-
-// BOY DO I LOVE C# :) 08/06/2024 - The-Goofy-Man

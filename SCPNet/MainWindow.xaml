@@ -1,19 +1,27 @@
+<!--
+This code is licensed under the CC BY-NC-SA License. See licence.md in the root of the repo for more information.
+
+last updated: 08/11/2025 by: Dr. Shermon
+-->
 <Window
-	x:Class="SCPNet.MainWindow"
-	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-	xmlns:local="using:SCPNet"
-	Title="MainWindow">
-
-	<Grid>
-		<!-- Host a Frame for navigation -->
-		<Frame x:Name="MainFrame" />
-
-		<!-- Optional overlay UI like your login form -->
-		<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-            <TextBox x:Name="id_box" PlaceholderText="Reasercer Dawkins" HorizontalAlignment="Center"/>
-            <Button Content="Log In" Click="MyButton_OnClick" HorizontalAlignment="Center" Margin="10" />
-            <ProgressRing IsActive="False" Margin="15" VerticalAlignment="Center" HorizontalAlignment="Center" x:Name="Ring"/>
+    x:Class="SCPNet.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SCPNet"
+    Title="MainWindow">
+    <Grid>
+        <!-- Login UI -->
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="LogInPanel" x:FieldModifier="public">
+            <TextBox x:Name="id_box" PlaceholderText="Dr. Clef" HorizontalAlignment="Center" />
+            <Button Content="Log In" Click="MyButton_OnClick" HorizontalAlignment="Center" Margin="16" />
+            <ProgressRing IsActive="False" Margin="16" VerticalAlignment="Center" HorizontalAlignment="Center"
+                          x:Name="Ring" />
         </StackPanel>
-	</Grid>
+        <!-- This is the search UI, because I don't feel like dealing with WinUis tomfoolery and C#'s shenanigans today. See Rant-WUI3+C#.md for details.-->
+        <Frame x:Name="ViewFrame" Visibility="Collapsed" Opacity="0" x:FieldModifier="public">
+            <StackPanel>
+                <TextBox  Width="590px" x:Name="DocInput" PlaceholderText="SCP-3000" Margin="32" TextChanged="Search" VerticalAlignment="Top" HorizontalAlignment="Left" />
+            </StackPanel>
+        </Frame>
+    </Grid>
 </Window>

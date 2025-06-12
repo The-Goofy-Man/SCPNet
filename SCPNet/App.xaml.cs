@@ -1,4 +1,6 @@
-﻿using System;
+﻿// This code is licensed under the CC BY-NC-SA License. See licence.md in the root of the repo for more information.
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -26,7 +28,9 @@ namespace SCPNet
     /// </summary>
     public partial class App : Application
     {
-        private Window? _window;
+        public Window? Window;
+        public static MainWindow MainAppWindow => (MainWindow)((App)Current).Window!;
+
 
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
@@ -43,8 +47,8 @@ namespace SCPNet
         /// <param name="args">Details about the launch request and process.</param>
         protected override void OnLaunched(Microsoft.UI.Xaml.LaunchActivatedEventArgs args)
         {
-            _window = new MainWindow();
-            _window.Activate();
+            Window = new MainWindow();
+            Window.Activate();
         }
     }
 }
