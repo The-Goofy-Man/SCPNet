@@ -1,11 +1,24 @@
+<<<<<<< Updated upstream
 TL;DR:
 
 This repository uses the CC BY-NC-SA 4.0 licence meaning:
 
+=======
+# TL;DR:
+![The logo for the CC BY-NC-SA Licence](https://upload.wikimedia.org/wikipedia/commons/1/12/Cc-by-nc-sa_icon.svg)
+
+#### This repository uses the CC BY-NC-SA 4.0 licence meaning:
+
+### You are free to:
+
+<<<<<<< Updated upstream
+You are free to:
+>>>>>>> Stashed changes
 
     Share — copy and redistribute the material in any medium or format
     Adapt — remix, transform, and build upon the material
     *The licensor cannot revoke these freedoms as long as you follow the license terms.*
+<<<<<<< Updated upstream
 
 Under the following terms:
 
@@ -15,20 +28,48 @@ Under the following terms:
     No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
 Notices:
+=======
+=======
+- **Share, copy and redistribute** the material in any medium or format
+- **Adapt, remix, transform, and build upon** the material
+- *The licensor cannot revoke these freedoms as long as you follow the license terms.*
+>>>>>>> Stashed changes
+
+### Under the following terms:
+
+- **Attribution** — You must give appropriate credit , provide a link to the license, and indicate if changes were made . You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+- **NonCommercial** — You may not use the material for commercial purposes .
+- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+- **No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+### Notices:
+>>>>>>> Stashed changes
 
 You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation .
 
 No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
 
+<<<<<<< Updated upstream
 This deed highlights only some of the key features and terms of the actual license. It is not a license and has no legal value. You should carefully review all of the terms and conditions of the actual license before using the licensed material. see the licence at [https://creativecommons.org/licenses/by/4.0/legalcode.txt](https://creativecommons.org/licenses/by/4.0/legalcode.txt)
 
 
 ----------------------------------------------------------------------------------
+=======
+This deed highlights only some of the key features and terms of the actual license. It is not a license and has *no legal value*. You should carefully review all of the terms and conditions of the actual license before using the licensed material.
+See the licence at [https://creativecommons.org/licenses/by/4.0/legalcode.txt](https://creativecommons.org/licenses/by/4.0/legalcode.txt) or below
+
+
+---
+>>>>>>> Stashed changes
 
 
 Attribution 4.0 International
 
+<<<<<<< Updated upstream
 =======================================================================
+=======
+---
+>>>>>>> Stashed changes
 
 Creative Commons Corporation ("Creative Commons") is not a law firm and
 does not provide legal services or legal advice. Distribution of
@@ -49,7 +90,11 @@ and certain other rights specified in the public license below. The
 following considerations are for informational purposes only, are not
 exhaustive, and do not form part of our licenses.
 
+<<<<<<< Updated upstream
      Considerations for licensors: Our public licenses are
+=======
+- Considerations for licensors: Our public licenses are
+>>>>>>> Stashed changes
      intended for use by those authorized to give the public
      permission to use material in ways otherwise restricted by
      copyright and certain other rights. Our licenses are
@@ -63,7 +108,11 @@ exhaustive, and do not form part of our licenses.
      limitation to copyright. More considerations for licensors:
     wiki.creativecommons.org/Considerations_for_licensors
 
+<<<<<<< Updated upstream
      Considerations for the public: By using one of our public
+=======
+- Considerations for the public: By using one of our public
+>>>>>>> Stashed changes
      licenses, a licensor grants the public permission to use the
      licensed material under specified terms and conditions. If
      the licensor's permission is not necessary for any reason--for
@@ -80,9 +129,15 @@ exhaustive, and do not form part of our licenses.
      for the public:
     wiki.creativecommons.org/Considerations_for_licensees
 
+<<<<<<< Updated upstream
 =======================================================================
 
 Creative Commons Attribution 4.0 International Public License
+=======
+---
+
+# Creative Commons Attribution 4.0 International Public License
+>>>>>>> Stashed changes
 
 By exercising the Licensed Rights (defined below), You accept and agree
 to be bound by the terms and conditions of this Creative Commons
@@ -94,7 +149,11 @@ consideration of benefits the Licensor receives from making the
 Licensed Material available under these terms and conditions.
 
 
+<<<<<<< Updated upstream
 Section 1 -- Definitions.
+=======
+## Section 1 -- Definitions.
+>>>>>>> Stashed changes
 
   a. Adapted Material means material subject to Copyright and Similar
      Rights that is derived from or based upon the Licensed Material
@@ -158,7 +217,11 @@ Section 1 -- Definitions.
      under this Public License. Your has a corresponding meaning.
 
 
+<<<<<<< Updated upstream
 Section 2 -- Scope.
+=======
+## Section 2 -- Scope.
+>>>>>>> Stashed changes
 
   a. License grant.
 
@@ -235,7 +298,11 @@ Section 2 -- Scope.
           reserves any right to collect such royalties.
 
 
+<<<<<<< Updated upstream
 Section 3 -- License Conditions.
+=======
+## Section 3 -- License Conditions.
+>>>>>>> Stashed changes
 
 Your exercise of the Licensed Rights is expressly made subject to the
 following conditions.
@@ -287,7 +354,11 @@ following conditions.
           Material from complying with this Public License.
 
 
+<<<<<<< Updated upstream
 Section 4 -- Sui Generis Database Rights.
+=======
+## Section 4 -- Sui Generis Database Rights.
+>>>>>>> Stashed changes
 
 Where the Licensed Rights include Sui Generis Database Rights that
 apply to Your use of the Licensed Material:
@@ -309,7 +380,11 @@ replace Your obligations under this Public License where the Licensed
 Rights include other Copyright and Similar Rights.
 
 
+<<<<<<< Updated upstream
 Section 5 -- Disclaimer of Warranties and Limitation of Liability.
+=======
+## Section 5 -- Disclaimer of Warranties and Limitation of Liability.
+>>>>>>> Stashed changes
 
   a. UNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE
      EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS
@@ -338,7 +413,11 @@ Section 5 -- Disclaimer of Warranties and Limitation of Liability.
      waiver of all liability.
 
 
+<<<<<<< Updated upstream
 Section 6 -- Term and Termination.
+=======
+## Section 6 -- Term and Termination.
+>>>>>>> Stashed changes
 
   a. This Public License applies for the term of the Copyright and
      Similar Rights licensed here. However, if You fail to comply with
@@ -367,7 +446,11 @@ Section 6 -- Term and Termination.
      License.
 
 
+<<<<<<< Updated upstream
 Section 7 -- Other Terms and Conditions.
+=======
+## Section 7 -- Other Terms and Conditions.
+>>>>>>> Stashed changes
 
   a. The Licensor shall not be bound by any additional or different
      terms or conditions communicated by You unless expressly agreed.
@@ -377,7 +460,11 @@ Section 7 -- Other Terms and Conditions.
      independent of the terms and conditions of this Public License.
 
 
+<<<<<<< Updated upstream
 Section 8 -- Interpretation.
+=======
+## Section 8 -- Interpretation.
+>>>>>>> Stashed changes
 
   a. For the avoidance of doubt, this Public License does not, and
      shall not be interpreted to, reduce, limit, restrict, or impose
@@ -401,7 +488,11 @@ Section 8 -- Interpretation.
      processes of any jurisdiction or authority.
 
 
+<<<<<<< Updated upstream
 =======================================================================
+=======
+---
+>>>>>>> Stashed changes
 
 Creative Commons is not a party to its public
 licenses. Notwithstanding, Creative Commons may elect to apply one of

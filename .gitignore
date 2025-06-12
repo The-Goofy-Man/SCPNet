@@ -9,6 +9,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+Rant-WUI3+C#.md
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs

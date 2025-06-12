@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SCPNet (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "SCPNet (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
