@@ -1,7 +1,7 @@
 <!--
-This code is licensed under the CC BY-NC-SA License. See licence.md in the root of the repo for more information.
+This code is licensed under the CC BY-NC-SA License. See licence.md in the root of the reposatory for more information.
 
-last updated: 08/11/2025 by: Dr. Shermon
+last updated: 16/06/2025 by: Dr. Sherman
 -->
 <Window
     x:Class="SCPNet.MainWindow"
@@ -10,17 +10,59 @@ last updated: 08/11/2025 by: Dr. Shermon
     xmlns:local="using:SCPNet"
     Title="MainWindow">
     <Grid>
+
         <!-- Login UI -->
-        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" x:Name="LogInPanel" x:FieldModifier="public">
-            <TextBox x:Name="id_box" PlaceholderText="Dr. Clef" HorizontalAlignment="Center" />
-            <Button Content="Log In" Click="MyButton_OnClick" HorizontalAlignment="Center" Margin="16" />
-            <ProgressRing IsActive="False" Margin="16" VerticalAlignment="Center" HorizontalAlignment="Center"
-                          x:Name="Ring" />
+        <StackPanel 
+            Orientation="Vertical" 
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Center" 
+            x:Name="LogInPanel" 
+            x:FieldModifier="public">
+            <TextBox 
+                x:Name="id_box"
+                PlaceholderText="Dr. Clef" 
+                HorizontalAlignment="Center"/>
+            <Button 
+                Content="Log In"
+                Click="MyButton_OnClick"
+                HorizontalAlignment="Center"
+                Margin="16"/>
+            <ProgressRing
+                    IsActive="False" 
+                     Margin="16" 
+                     VerticalAlignment="Center" 
+                     HorizontalAlignment="Center"
+                     x:Name="Ring" />
         </StackPanel>
         <!-- This is the search UI, because I don't feel like dealing with WinUis tomfoolery and C#'s shenanigans today. See Rant-WUI3+C#.md for details.-->
         <Frame x:Name="ViewFrame" Visibility="Collapsed" Opacity="0" x:FieldModifier="public">
-            <StackPanel>
-                <TextBox  Width="590px" x:Name="DocInput" PlaceholderText="SCP-3000" Margin="32" TextChanged="Search" VerticalAlignment="Top" HorizontalAlignment="Left" />
+            <StackPanel Orientation="Horizontal" Spacing="16">
+                <!-- idk what to put here-->
+                    <InfoBar
+                    x:Name="warningbar"
+                    Severity="Warning"
+                    IsOpen="False"
+                    IsIconVisible="True"
+                    IsClosable="True"
+                    Title="No Document Entered."
+                    Message="A severe error has occured, please ensure that you entered a document, if this problem persists, please make A issue on GitHub." />
+                <TextBox  
+                    Width="590px"
+                    x:Name="DocInput"
+                    PlaceholderText="SCP-3000"
+                    Margin="32"
+                    VerticalAlignment="Top"/>
+                <Button  
+                    Click="Search"
+                    Margin="16" 
+                    Width="25px" 
+                    x:Name="Find"
+                    VerticalAlignment="Top">
+                    <Button.Content>
+                        <FontIcon Glyph="&#xE721;"/>
+                    </Button.Content>
+                </Button>
+                <RichTextBlock  x:Name="Unit" Margin="10"/>
             </StackPanel>
         </Frame>
     </Grid>

@@ -2,7 +2,8 @@
 <!--
 This code is licensed under and will always be licenced under the CC BY-NC-SA License. See licence.md in the root of the repo for more information.
 
-last updated: 08/06/2025 by: Dr. Shermon
+last updated: 08/06/2025 by: Dr. 
+
 -->
 <assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1">
   <assemblyIdentity version="1.0.0.0" name="SCPNet.app"/>
